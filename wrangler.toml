@@ -1,0 +1,9 @@
+name = "cloudinitonline"
+compatibility_date = "2026-08-01"
+pages_build_output_dir = "dist"
+
+# KV namespace used by functions/api/test-codes.ts
+[[kv_namespaces]]
+binding = "TEST_CODES_KV"
+id = "2f62d654561748d9a2ba1db90d605e95"
+preview_id = "2f62d654561748d9a2ba1db90d605e95"
