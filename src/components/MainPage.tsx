@@ -109,17 +109,6 @@ export default function MainPage() {
     <div className="max-w-3xl mx-auto">
       <div className="bg-white rounded-2xl shadow-sm border border-neutral-200 overflow-hidden">
         <div className="p-6 sm:p-10 text-center border-b border-neutral-100 bg-neutral-50/50 relative">
-          <div className="absolute right-4 top-4 sm:right-6 sm:top-6">
-            <button
-              onClick={() => {
-                localStorage.removeItem('preferredBatch');
-                setHasSelectedBatch(false);
-              }}
-              className="text-xs font-medium text-neutral-400 hover:text-neutral-600 underline underline-offset-2 transition-colors"
-            >
-              Change Batch
-            </button>
-          </div>
           <h2 className="text-3xl font-semibold tracking-tight text-neutral-900 mb-2">
             Today's Test Code
           </h2>
